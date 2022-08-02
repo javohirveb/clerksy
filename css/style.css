@@ -820,6 +820,10 @@ body {
     .consider {
         margin-top: 40px;
     }
+    .consider-items .consider-item {
+        margin-right: 0px;
+        margin-top: 20px;
+    }
     .consider h1 {
         font-size: 2.3rem;
     }
@@ -828,7 +832,7 @@ body {
         flex-direction: column;
     }
     .consider ul li {
-        margin-top: 20px;
+        margin-top: 10px;
         width: 100%;
     }
     .easy {
@@ -837,6 +841,13 @@ body {
     }
     .easy h1 {
         padding-top: 40px;
+        font-size: 2.4rem;
+    }
+    .easy h3 {
+        font-size: 1rem;
+    }
+    .easy-text h3 {
+        font-size: .85rem;
     }
     .easy ul {
         display: flex;
@@ -880,8 +891,7 @@ body {
         display: none;
     }
     .discovery {
-        margin-top: 60px;
-        padding-bottom: 20px;
+        padding: 2rem .25rem;
     }
     .discovery img {
         display: none;
@@ -922,7 +932,7 @@ body {
         color: #FBFAF7;
         background: #15762E;
         border-radius: 160px;
-        padding: 7px 18px;
+        padding: 6px 18px;
     }
     .privacy p {
         margin-top: 30px;
